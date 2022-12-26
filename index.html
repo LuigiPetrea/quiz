@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Choose the correct option!</h1>
+    <div class="alert alert-success" role="alert" style="display: none">
+        Correct answer!
+    </div>
+    <div class="alert alert-danger" role="alert" style="display: none">
+        Wrong answer😔!
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">How much is it 12 * 13?</h5>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="answer" id="choice-1">
+                <label class="form-check-label" for="choice-1">
+                    144
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="answer" id="choice-2">
+                <label class="form-check-label" for="choice-2">
+                    154
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="answer" id="choice-3">
+                <label class="form-check-label" for="choice-3">
+                    156
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="answer" id="choice-4">
+                <label class="form-check-label" for="choice-4">
+                    146
+                </label>
+            </div>
+            <input type="hidden" id="correct-answer" value="144">
+            <button class="btn btn-primary">Verifică răspunsul</button>
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
